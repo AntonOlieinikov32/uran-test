@@ -1,0 +1,11 @@
+@use 'variables';
+@use 'components/column';
+@use 'components/task-card';
+
+body {
+  background-color: variables.$primary-bg;
+  color: variables.$text-primary;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}

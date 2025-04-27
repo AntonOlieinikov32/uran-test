@@ -1,0 +1,28 @@
+@use '../variables' as variables;
+
+.column {
+  flex: 1;
+  padding: variables.$column-padding;
+  background: variables.$primary-bg;
+  border-radius: 8px;
+  min-width: variables.$column-min-width;
+  transition: all variables.$transition-duration variables.$transition-timing;
+
+  h2 {
+    font-size: variables.$heading-font-size;
+    font-weight: variables.$heading-font-weight;
+    margin-bottom: variables.$heading-margin-bottom;
+    color: variables.$text-primary;
+  }
+
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: variables.$column-gap;
+  }
+
+  &.invalid-drop {
+    background: variables.$invalid-drop-bg;
+    border: 2px dashed variables.$invalid-drop-border;
+  }
+}

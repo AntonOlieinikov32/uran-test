@@ -1,0 +1,37 @@
+{
+  "name": "uran-test",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.7.2",
+    "axios": "^1.6.7",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
+    "autoprefixer": "^10.4.17",
+    "esbuild": "^0.25.3",
+    "npm-run-all2": "^7.0.2",
+    "postcss": "^8.4.35",
+    "sass": "^1.87.0",
+    "sass-loader": "^16.0.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^6.3.3",
+    "vue-tsc": "^2.2.10"
+  }
+}
