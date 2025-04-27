@@ -11,13 +11,13 @@ This project is a Trello-like task manager with a Vue 3 frontend and Node.js/Exp
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/AntonOlieinikov32/uran-test
    cd <your-repo-directory>
    ```
 
 2. **Build and start all services:**
 
-   ```bash
+   ```bashs
    docker-compose up --build
    ```
 
