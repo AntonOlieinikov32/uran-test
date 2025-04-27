@@ -12,7 +12,7 @@ This project is a Trello-like task manager with a Vue 3 frontend and Node.js/Exp
 
    ```bash
    git clone https://github.com/AntonOlieinikov32/uran-test
-   cd <your-repo-directory>
+   cd uran-test
    ```
 
 2. **Build and start all services:**
